@@ -84,7 +84,7 @@ nav {
 }
 
 .email-sidebar ul li a:hover {
-    background-color: #f0b400;
+    background-color: #f00044;
     color: white;
 }
 
@@ -132,15 +132,6 @@ form {
     flex-direction: column;
     gap: 15px;
 }
-
-input[type="email"],
-input[type="password"] {
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 5px;
-    border: 1px solid #0b0b0b;
-}
-
 button[type="submit"] {
     padding: 10px;
     background-color: #007bff;
@@ -148,6 +139,26 @@ button[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.navbar-brand:hover{
+  background-color:black;
+  color: #f0b400;
+}
+.add-first:hover{
+    background-color: black;
+    color: #f0b400;
+
+}
+.add-sec:hover{
+    background-color: black;
+    color: #f0b400;
+}
+.add-third:hover{
+    background-color: black;
+    color: #f0b400;
+}.add-fourth:hover{
+    background-color: black;
+    color: #f0b400;
 }
 
 button[type="submit"]:hover {
