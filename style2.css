@@ -19,9 +19,6 @@ body {
     top: 0;
     z-index: 1000;
 }
-h1{
-    animation: alternate-reverse;
-}
 .navbar .brand-title {
     font-size: 1.5em;
     color: white;
@@ -197,26 +194,6 @@ header img{
     border-radius: 50%;
     margin-bottom: 10px;
 }
-/* Responsive Design */
-/* @media (max-width: 768px) {
-    .navbar .navbar-links {
-        display: none;
-        width: 100%;
-    }
-    .navbar-links{
-        display: block;
-        justify-content: space-between;
-    }
-
-    .navbar .navbar-links ul {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .navbar .navbar-links ul li {
-        text-align: center;
-        margin: 10px 0;
-    } */
      div img{
         width: 150px;
         height: 200px;
